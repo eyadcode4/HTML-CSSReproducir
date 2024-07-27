@@ -12,7 +12,7 @@ const divs = document.querySelectorAll('.container > div');
 
         currentIndex = (currentIndex + 1) % divs.length;
 
-        setTimeout(toggleDivVisibility, 2000); 
+        setTimeout(toggleDivVisibility, 500); 
     }
 
     toggleDivVisibility();
