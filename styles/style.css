@@ -14,8 +14,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    line-height: 100px;
     font-size: 30px; 
+    font-weight: bold;
 }
 
 .div1 {
@@ -27,7 +27,7 @@
 }
 
 .div3 {
-    background-color: crimson;
+    background-color: red;
     font-size: 80px;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .div6 {
-    background-color: crimson;
+    background-color: red;
 }
 
 .div7 {
@@ -50,7 +50,7 @@
 }
 
 .div8 {
-    background-color: aquamarine;
+    background-color: aqua;
 }
 
 .div9 {
@@ -63,7 +63,7 @@
 }
 
 .div11 {
-    background-color: aquamarine;
+    background-color: aqua;
 }
 
 .div12 {
@@ -71,7 +71,7 @@
 }
 
 .div13 {
-    background-color: aquamarine;
+    background-color: aqua;
 }
 
 .div14 {

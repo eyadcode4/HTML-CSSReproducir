@@ -1,7 +1,7 @@
 const divs = document.querySelectorAll('.container > div');
     let currentIndex = 0;
 
-    function toggleDivVisibility() {
+    function visableONot() {
         divs[currentIndex].style.opacity = 0;
 
         if (currentIndex > 0) {
@@ -12,7 +12,7 @@ const divs = document.querySelectorAll('.container > div');
 
         currentIndex = (currentIndex + 1) % divs.length;
 
-        setTimeout(toggleDivVisibility, 500); 
+        setTimeout(visableONot, 500); 
     }
 
-    toggleDivVisibility();
+    visableONot();
